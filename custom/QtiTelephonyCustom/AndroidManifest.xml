@@ -11,8 +11,6 @@
           platformBuildVersionName="14" xmlns:android="http://schemas.android.com/apk/res/android">
   <uses-sdk android:minSdkVersion="34"
             android:targetSdkVersion="33" />
-  <permission android:name="com.qualcomm.qti.permission.USE_EXT_TELEPHONY_SERVICE"
-              android:protectionLevel="signatureOrSystem" />
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
   <uses-permission android:name="android.permission.READ_PHONE_STATE" />
   <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
@@ -40,7 +38,6 @@
       </intent-filter>
     </receiver>
     <service android:name="com.qti.phone.ExtTelephonyService"
-             android:permission="com.qualcomm.qti.permission.USE_EXT_TELEPHONY_SERVICE"
              android:exported="true" />
     <service android:name="com.qti.phone.powerupoptimization.PowerUpOptimizationService"
              android:exported="false" />

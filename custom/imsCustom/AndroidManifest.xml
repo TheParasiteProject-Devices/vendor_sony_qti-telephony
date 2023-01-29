@@ -39,8 +39,6 @@
               android:protectionLevel="signatureOrSystem" />
   <permission android:name="com.qti.permission.AUDIO"
               android:protectionLevel="signatureOrSystem" />
-  <permission android:name="com.qti.permission.BIND_QTI_IMS_SERVICE"
-              android:protectionLevel="signatureOrSystem" />
   <permission android:name="com.qti.permission.RECEIVE_PRE_ALERTING_CALL_INFO"
               android:protectionLevel="signatureOrSystem" />
   <permission android:name="com.qti.permission.RECEIVE_SMS_CALLBACK_MODE"
@@ -66,7 +64,6 @@
       </intent-filter>
     </service>
     <service android:name=".QtiImsExtService"
-             android:permission="com.qti.permission.BIND_QTI_IMS_SERVICE"
              android:enabled="true"
              android:exported="true"
              android:singleUser="true" />
