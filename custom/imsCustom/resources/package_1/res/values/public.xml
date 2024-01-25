@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources package="org.codeaurora.ims" id="0x7f">
+  <public id="0x7f010005" type="bool" name="config_video_call_datausage_enable" />
+  <public id="0x7f010000" type="bool" name="config_carrier_display_csretry_toast" />
+  <public id="0x7f010001" type="bool" name="config_device_allow_telephony_calculate_rotation" />
+  <public id="0x7f010002" type="bool" name="config_enable_camera_sound" />
+  <public id="0x7f010003" type="bool" name="config_ovr_create_video_call_provider" />
+  <public id="0x7f010004" type="bool" name="config_regional_number_patterns_video_call" />
+  <public id="0x7f020002" type="drawable" name="volte_icon" />
+  <public id="0x7f020000" type="drawable" name="img_no_image" />
+  <public id="0x7f020001" type="drawable" name="ims_state" />
+  <public id="0x7f030012" type="string" name="incoming_call_failed_low_battery" />
+  <public id="0x7f030000" type="string" name="call_hold_label" />
+  <public id="0x7f030001" type="string" name="call_resume_label" />
+  <public id="0x7f030002" type="string" name="device_is_hd_capable" />
+  <public id="0x7f030003" type="string" name="device_is_volte_capable" />
+  <public id="0x7f030004" type="string" name="error_msg_cancelled" />
+  <public id="0x7f030005" type="string" name="error_msg_failed" />
+  <public id="0x7f030006" type="string" name="error_msg_reinvite_collision" />
+  <public id="0x7f030007" type="string" name="handover_from_wifi_to_lte" />
+  <public id="0x7f030008" type="string" name="hd_icon_header_app_name" />
+  <public id="0x7f030009" type="string" name="ims_channel_name" />
+</resources>

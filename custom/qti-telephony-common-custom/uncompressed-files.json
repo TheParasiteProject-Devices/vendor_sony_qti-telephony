@@ -1,0 +1,15 @@
+{
+  "extensions": [
+    ".jpg",
+    ".mp3",
+    ".mp4",
+    ".png",
+    ".wav",
+    ".webp"
+  ],
+  "paths": [
+    "META-INF/MANIFEST.MF",
+    "classes.dex",
+    "resources.arsc"
+  ]
+}

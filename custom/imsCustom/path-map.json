@@ -1,0 +1,38 @@
+[
+  {
+    "name": "res/drawable-hdpi-v4/img_no_image.png",
+    "alias": "res/drawable-hdpi/img_no_image.png"
+  },
+  {
+    "name": "res/drawable-hdpi-v4/ims_state.png",
+    "alias": "res/drawable-hdpi/ims_state.png"
+  },
+  {
+    "name": "res/drawable-hdpi-v4/volte_icon",
+    "alias": "res/drawable-hdpi/volte_icon.png"
+  },
+  {
+    "name": "res/drawable-mdpi-v4/img_no_image.png",
+    "alias": "res/drawable-mdpi/img_no_image.png"
+  },
+  {
+    "name": "res/drawable-mdpi-v4/ims_state.png",
+    "alias": "res/drawable-mdpi/ims_state.png"
+  },
+  {
+    "name": "res/drawable-mdpi-v4/volte_icon",
+    "alias": "res/drawable-mdpi/volte_icon.png"
+  },
+  {
+    "name": "res/drawable-xhdpi-v4/img_no_image.png",
+    "alias": "res/drawable-xhdpi/img_no_image.png"
+  },
+  {
+    "name": "res/drawable-xhdpi-v4/ims_state.png",
+    "alias": "res/drawable-xhdpi/ims_state.png"
+  },
+  {
+    "name": "res/drawable-xhdpi-v4/volte_icon",
+    "alias": "res/drawable-xhdpi/volte_icon.png"
+  }
+]

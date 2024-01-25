@@ -1,0 +1,92 @@
+{
+  "arsc_lib_version": "1.3.0",
+  "package_id": 127,
+  "package_name": "org.codeaurora.ims",
+  "specs": [
+    {
+      "spec": {
+        "id": 1,
+        "spec_flags": [
+          {
+            "id": 0,
+            "flag": 3
+          },
+          {
+            "id": 3,
+            "flag": 3
+          }
+        ]
+      }
+    },
+    {
+      "spec": {
+        "id": 2,
+        "spec_flags": [
+          {
+            "id": 0,
+            "flag": 256
+          },
+          {
+            "id": 1,
+            "flag": 256
+          },
+          {
+            "id": 2,
+            "flag": 256
+          }
+        ]
+      }
+    },
+    {
+      "spec": {
+        "id": 3,
+        "spec_flags": [
+          {
+            "id": 0,
+            "flag": 4
+          },
+          {
+            "id": 1,
+            "flag": 4
+          },
+          {
+            "id": 2,
+            "flag": 4
+          },
+          {
+            "id": 3,
+            "flag": 4
+          },
+          {
+            "id": 4,
+            "flag": 4
+          },
+          {
+            "id": 5,
+            "flag": 4
+          },
+          {
+            "id": 6,
+            "flag": 4
+          },
+          {
+            "id": 7,
+            "flag": 4
+          },
+          {
+            "id": 8,
+            "flag": 4
+          },
+          {
+            "id": 9,
+            "flag": 4
+          },
+          {
+            "id": 18,
+            "flag": 4
+          }
+        ]
+      }
+    }
+  ]
+}
