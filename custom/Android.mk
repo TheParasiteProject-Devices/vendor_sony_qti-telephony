@@ -13,6 +13,8 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_NO_STANDARD_LIBRARIES := true
 LOCAL_USES_LIBRARIES := com.qti.extphone.extphonelib com.qualcomm.qcrilhook qti-telephony-utils qti-telephony-hidl-wrapper
 LOCAL_OVERRIDES_PACKAGES := QtiTelephony
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_DEX_PREOPT := false
 LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
@@ -30,6 +32,8 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_NO_STANDARD_LIBRARIES := true
 LOCAL_USES_LIBRARIES := qti-telephony-hidl-wrapper qti-telephony-utils ims-ext-common
 LOCAL_OVERRIDES_PACKAGES := ims
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_DEX_PREOPT := false
 LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
@@ -43,4 +47,6 @@ LOCAL_INSTALLED_MODULE_STEM := qti-telephony-common.jar
 LOCAL_SYSTEM_EXT_MODULE := true
 LOCAL_MODULE_SUFFIX := .jar
 LOCAL_OVERRIDES_PACKAGES := qti-telephony-common
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
