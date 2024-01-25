@@ -1,0 +1,3 @@
+system_ext/app/QtiTelephony/QtiTelephony.apk
+system_ext/priv-app/ims/ims.apk
+system_ext/framework/qti-telephony-common.jar
