@@ -196,7 +196,7 @@
     .line 108
     iget-object v0, p0, Lcom/qualcomm/qti/internal/telephony/data/QtiDataConfigManager;->mResources:Landroid/content/res/Resources;
 
-    const v1, 0x11101bf
+    const v1, 0x11101be
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
