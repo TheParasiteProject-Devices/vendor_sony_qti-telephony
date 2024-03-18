@@ -1,5 +1,7 @@
 #!/bin/bash
 
+if [[ $(echo -n $TARGET_PRODUCT | sed -e 's/^aosp_//g') = "pdx234" ]]; then
+
 APKEDITOR=$(pwd)/prebuilts/tools-parasite/common/bin/APKEditor
 
 cd vendor/sony/qti-telephony
@@ -23,3 +25,5 @@ if [ -d "custom/qti-telephony-common-custom" ]; then
 fi
 
 cd ../../../
+
+fi
